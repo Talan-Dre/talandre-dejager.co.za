@@ -929,8 +929,21 @@
           </div>
         </div>
         <div class="contact-form">
+      <form action="mailto:talandre07dejager@gmail.com" method="POST" enctype="text/plain">
+        <div>
+          <label>Your email</label>
+          <input type="email" name="email" placeholder="you@example.com" required />
         </div>
-      </div>
+        <div>
+          <label>Subject</label>
+          <input type="text" name="subject" placeholder="Just saying hi" required />
+        </div>
+        <div>
+          <label>Message</label>
+          <textarea name="message" rows="5" placeholder="Let's talk about..." required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
   </section>
 
