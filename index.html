@@ -515,17 +515,22 @@
             margin-bottom: 1rem;
         }
         
-        .contact-icon {
-            background-color: rgba(37, 99, 235, 0.1);
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 1rem;
-            color: var(--primary);
-        }
+        .contact button {
+      margin-top: 1.5rem;
+      background: linear-gradient(to right, #ec4899, #f59e0b);
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .contact button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
         
        .social-links {
       display: flex;
